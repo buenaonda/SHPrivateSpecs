@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.summary  = 'Vind Model Classes'
     s.authors  = { 'Diego Torres' => 'contact@dtorres.me'}
     s.homepage = "http://www.dtorres.me"
-    s.source   = { :git => 'gitolite@66.175.220.174:VDClasses', :tag => '0.0.1.1' }
+    s.source   = { :git => 'gitolite@66.175.220.174:VDClasses', :tag => s.version.to_s }
     s.source_files = 'Classes/VD*.{h,m}', 'Classes/**/VD*.{h,m}'
     s.preserve_path = 'VindCore.xcdatamodeld'
     s.requires_arc = true
