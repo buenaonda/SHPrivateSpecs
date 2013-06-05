@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     prefix_header = library_representation.prefix_header_path
     prefix_header.open('a') do |file|
       if current_target_data["BASE_URL"]
-        file.puts "#define BOVIND_CHUNKS_BASEURL @\"#{current_target_data["BASE_URL"]}\"\n"
+        file.puts "#define BOVIND_BASEURL @\"#{current_target_data["BASE_URL"]}\"\n"
       end
       if current_target_data["CHUNKS_URL"]
         file.puts "#define BOVIND_CHUNKS_BASEURL @\"#{current_target_data["CHUNKS_URL"]}\"\n"
