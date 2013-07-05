@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name     = 'BOVindSDK'
   s.version  = '0.8.1'
   s.license  = 'Closed Source'
-  s.summary  = 'Vind Cocoa SDK'
+  s.summary  = 'Vind Cocoa SDK.'
   s.authors  = { 'Diego Torres' => 'contact@dtorres.me'}
   s.homepage = "http://www.dtorres.me"
   s.source   = { :git => 'gitolite@66.175.220.174:BOVindSDK', :tag => s.version.to_s}
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'AFNetworking'
   s.dependency 'BOPersistentOperationQueue'
-  
+  s.frameworks = "AVFoundation", "ImageIO", "MobileCoreServices"
   unless defined? $BOVIND_SDK
     $BOVIND_SDK = {}
   end
