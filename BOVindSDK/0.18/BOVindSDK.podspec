@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.osx.deployment_target = '10.9'
 
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', "~> 2.0.3"
   s.dependency 'BOPersistentOperationQueue'
   s.frameworks = "AVFoundation", "ImageIO", "MobileCoreServices", "CoreMedia"
   
