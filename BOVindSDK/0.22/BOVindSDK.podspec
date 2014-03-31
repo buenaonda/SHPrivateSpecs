@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Vind Cocoa SDK.'
   s.authors  = { 'Diego Torres' => 'contact@dtorres.me'}
   s.homepage = "http://www.dtorres.me"
-  s.source   = { :git => 'gitolite@66.175.220.174:BOVindSDK', :tag => s.version.to_s}
+  s.source   = { :git => 'git@github.com:buenaonda/BOVindSDK.git', :tag => s.version.to_s}
   s.source_files = 'BOVindSDK/Classes/*.{h,m}'
   s.requires_arc = true
 
