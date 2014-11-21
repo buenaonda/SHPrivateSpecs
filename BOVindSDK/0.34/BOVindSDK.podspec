@@ -1,4 +1,5 @@
 Pod::Spec.new do |s|
+  
   s.name     = 'BOVindSDK'
   s.version  = '0.34'
   s.license  = 'Closed Source'
@@ -13,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.osx.deployment_target = '10.9'
 
-  s.dependency 'AFNetworking/NSURLConnection', "~> 2.4.0"
+  s.dependency 'AFNetworking/NSURLConnection', "~> 2.0"
   s.dependency 'BOPersistentOperationQueue'
   s.frameworks = "AVFoundation", "ImageIO", "CoreMedia"
   s.osx.frameworks = "CoreServices"
